@@ -1,1 +1,9 @@
 POST http://localhost:8086/query?q=CREATE DATABASE dotnet
+
+###
+
+GET http://localhost:5000/api/hello/a1
+
+###
+
+GET http://localhost:5000/api/hello/a1
