@@ -26,7 +26,7 @@ namespace MyWeb {
         public void ConfigureServices(IServiceCollection services) {
 
             var uri = new Uri("http://localhost:8086");
-            var database = "dotnet";
+            var database = "telegraf";
 
             services.AddMetrics(options => {
                 options.WithGlobalTags((globalTags, info) => {
