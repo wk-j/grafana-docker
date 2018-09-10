@@ -16,11 +16,14 @@ docker-compose up
 
 ```bash
 brew install telegraf
+choco install telegraf
 ```
 
 ## Collect data
 
 ```
 telegraf -test -config telegraf/telegraf.conf
-telegraf -config telegraf/telegraf.conf
+
+telegraf -config telegraf/telegraf.macOS.conf
+telegraf -config telegraf/telegraf.Windows.conf
 ```
