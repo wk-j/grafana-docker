@@ -1,4 +1,12 @@
+
+### dotnet
 POST http://localhost:8086/query?q=CREATE DATABASE dotnet
+
+### chronograf
+POST http://localhost:8086/query?q=CREATE DATABASE chronograf
+
+###  telegraf
+POST http://localhost:8086/query?q=CREATE DATABASE telegraf
 
 ###
 
